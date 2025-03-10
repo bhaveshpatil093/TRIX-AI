@@ -1,0 +1,15 @@
+{
+  "exclude": ["node_modules"],
+  "include": ["index.ts", "routes/**/*", "scripts/**/*", "deploy", "tasks", "test", "hardhat.config.ts"],
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,   // Disable strict type checking
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "."
+  }
+}
